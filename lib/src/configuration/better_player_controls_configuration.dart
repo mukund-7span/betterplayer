@@ -240,7 +240,7 @@ class BetterPlayerControlsConfiguration {
   ///Setup BetterPlayerControlsConfiguration based on Theme options.
   factory BetterPlayerControlsConfiguration.theme(ThemeData theme) {
     return BetterPlayerControlsConfiguration(
-      textColor: theme.textTheme.bodySmall?.color ?? Colors.white,
+      textColor: theme.textTheme.titleSmall?.color ?? Colors.white,
       iconsColor: theme.buttonTheme.colorScheme?.primary ?? Colors.white,
     );
   }
